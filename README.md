@@ -37,7 +37,7 @@ This project demonstrates an automated pipeline for stock analysis and forecasti
 
 ## Future Work
 <p align= "Justify">
-1. Adding real time data so the model is continuously learning as market data comes in.
+  1. Adding real time data so the model is continuously learning as market data comes in.
   
 2. Incorporating sentiment analysis from news articles or social media data for additional insights.
   
