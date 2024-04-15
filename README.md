@@ -73,6 +73,12 @@ The dataset contains historical stock data for the ticker 'SPY' from the dates c
 
 **Chaikin Money Flow (CMF)**
 
+<p align="center">
+  <img src="![stockdataset](https://github.com/QuentTitre/StockProphetGPT/assets/144857411/fe78f2ce-ea39-41b8-b40d-23abe877681b)
+" alt="outcome" width="80%" />
+</p>
+
+
 **Data Split for Training and Testing:**
 
 The data is split into features (X) and the target variable (y), where 'Close' is used as the target variable.
