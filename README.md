@@ -36,23 +36,41 @@ Historical and predicted stock prices are visualized using matplotlib to provide
 The dataset contains historical stock data for the ticker 'SPY' from the dates chosen to look between. Each row represents daily stock metrics including:
 
 **Date
+
 Open
+
 High
+
 Low
+
 Close
+
 Adjusted Close
+
 Volume
+
 Simple Moving Average (SMA)
+
 Relative Strength Index (RSI)
+
 Exponential Moving Average (EMA)
+
 MACD Histogram
+
 Volume Weighted Average Price (VWAP)
+
 Upper Bollinger Band (Upper BB)
+
 Lower Bollinger Band (Lower BB)
+
 Stochastic Oscillator
+
 Average True Range (ATR)
+
 On-Balance Volume (OBV)
+
 Money Flow Index (MFI)
+
 Chaikin Money Flow (CMF)**
 
 **Data Split for Training and Testing:**
