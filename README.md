@@ -73,10 +73,6 @@ The dataset contains historical stock data for the ticker 'SPY' from the dates c
 
 **Chaikin Money Flow (CMF)**
 
-<p align="center">
-  <img src="This PC\Downloads\stockdataset.PNG" alt="outcome" width="80%" />
-</p>
-
 
 **Data Split for Training and Testing:**
 
