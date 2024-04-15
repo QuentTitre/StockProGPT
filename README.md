@@ -1,4 +1,4 @@
-# StockProphetGPT: A Data-driven Approach to Predicting Stock Price
+# StockProGPT: A Data-driven Approach to Predicting Stock Price
 
 ## About The Project 
 
