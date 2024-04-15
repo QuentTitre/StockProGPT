@@ -30,6 +30,45 @@ Predictions are made for future stock prices using the trained model.
 Historical and predicted stock prices are visualized using matplotlib to provide a clear understanding of model performance and forecasted trends.
 </p>
 
+## Dataset
+<p align="Justify">
+
+The dataset contains historical stock data for the ticker 'SPY' from the dates chosen to look between. Each row represents daily stock metrics including:
+
+**Date
+Open
+High
+Low
+Close
+Adjusted Close
+Volume
+Simple Moving Average (SMA)
+Relative Strength Index (RSI)
+Exponential Moving Average (EMA)
+MACD Histogram
+Volume Weighted Average Price (VWAP)
+Upper Bollinger Band (Upper BB)
+Lower Bollinger Band (Lower BB)
+Stochastic Oscillator
+Average True Range (ATR)
+On-Balance Volume (OBV)
+Money Flow Index (MFI)
+Chaikin Money Flow (CMF)**
+
+**Data Split for Training and Testing:**
+
+The data is split into features (X) and the target variable (y), where 'Close' is used as the target variable.
+The dataset is then split into training, validation, and testing sets using a train-test split ratio of 80-10-10.
+The training set comprises 80% of the data, the validation set comprises 10%, and the testing set comprises the remaining 10%.
+Additionally, the LSTM model uses a lookback window of 60 days (n_steps = 60) for training, meaning it considers the past 60 days of stock data to make predictions.
+
+Therefore, the dataset is divided into:
+
+Training data: Contains 80% of the total data, used for training the LSTM model.
+Validation data: Contains 10% of the total data, used for validating the model during training.
+Testing data: Contains 10% of the total data, used for evaluating the model's performance on unseen data after training.
+</p>
+
 ## Conclusion
 <p align="Justify">
 This project demonstrates an automated pipeline for stock analysis and forecasting, incorporating both technical indicators and machine learning techniques. By utilizing historical data and options chain information, investors can gain valuable insights into stock behavior and make informed decisions regarding trading strategies.
